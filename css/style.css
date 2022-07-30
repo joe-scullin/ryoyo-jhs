@@ -4,8 +4,26 @@ body{
     font-size:14px;
 }
 
+
+h1 { 
+    color:#e2e2e2;
+    font-size:40px;
+}
+h2 { 
+    color:#e2e2e2;
+    font-size:30px;
+}
+
+
 table{
     background-color: #323232;
     color:#c2c2c2;
     font-size:14px;
 }
+
+
+
+a {
+    color:#89b4f8;
+}
+
