@@ -1,3 +1,17 @@
+/* Text Modifiers */
+.highlight {
+    background: yellow;
+}
+
+.bold {
+    font-weight:bold;
+}
+
+.italic {
+    font-style:italic;
+}
+
+
 body{
     background-color:#1d1d1d;
     color:#a2a2a2;
