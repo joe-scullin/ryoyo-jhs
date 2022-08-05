@@ -1,43 +1,69 @@
-/* Text Modifiers */
-.highlight {
-    background: yellow;
-}
+/* ==================
+    Global Styles
+    ================= */
 
-.bold {
-    font-weight:bold;
-}
+/* changed default font size from rem to pixels to create a more dynamic website */
+/* 1 rem = 16px which is why I set default font size to 62.5%  (16 x 0.625 = 10) */
+/* Now I have a base 10 font system that can adjust to the user's set preferences */
 
-.italic {
-    font-style:italic;
+header {
+    font-size:62.5%;
 }
-
 
 body{
     background-color:#1d1d1d;
-    color:#a2a2a2;
-    font-size:14px;
+    color:#c2c2c2;
+    font-family:Arial, sans-serif;
+}
+
+
+/* ==================
+    Text Modifier Classes
+    ================= */
+
+    .highlight {
+        background: yellow;
+    }
+    
+    .bold {
+        font-weight:bold;
+    }
+    
+    .italic {
+        font-style:italic;
+    }
+    
+    
+/* ==================
+    Content
+    ================= */
+
+a {
+    color:#8ab4f8;
 }
 
 
 h1 { 
     color:#e2e2e2;
-    font-size:40px;
+    font-size:3.0rem;
 }
+
 h2 { 
     color:#e2e2e2;
-    font-size:30px;
+    font-size:2.5rem;
+}
+
+.header {
+    background:#121212;
+    padding:1rem;
 }
 
 
 table{
     background-color: #323232;
-    color:#c2c2c2;
-    font-size:14px;
+    padding:5px;
 }
 
-
-
-a {
-    color:#89b4f8;
+td {
+    padding:5px;
 }
-
